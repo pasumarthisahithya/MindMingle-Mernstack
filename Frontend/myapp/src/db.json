@@ -1,0 +1,145 @@
+{
+  "users": [
+    {
+      
+    }
+  ],
+
+  "moods": [
+    {
+      "id": 1,
+      "userId": 1,
+      "mood": "good",
+      "note": "Feeling positive today",
+      "date": "2024-02-01"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "mood": "excellent",
+      "note": "Had a productive day",
+      "date": "2024-02-02"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "mood": "okay",
+      "note": "A bit tired",
+      "date": "2024-02-03"
+    }
+  ],
+
+  "goals": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Daily Meditation",
+      "description": "Meditate for 10 minutes every morning",
+      "targetDate": "2024-03-01",
+      "progress": 50,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Sleep Routine",
+      "description": "Sleep before 11 PM",
+      "targetDate": "2024-03-10",
+      "progress": 100,
+      "status": "completed"
+    }
+  ],
+
+  "reminders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Morning Meditation",
+      "message": "Take 10 minutes to meditate",
+      "time": "07:00",
+      "frequency": "daily",
+      "enabled": true
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Sleep Reminder",
+      "message": "Go to bed early",
+      "time": "22:30",
+      "frequency": "daily",
+      "enabled": false
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": 1,
+      "type": "breathing",
+      "title": "Deep Breathing",
+      "description": "Calm your mind with deep breathing",
+      "duration": 5,
+      "difficulty": "beginner",
+      "instructions": [
+        "Sit comfortably",
+        "Inhale deeply through your nose",
+        "Hold for 3 seconds",
+        "Exhale slowly through your mouth"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "meditation",
+      "title": "Mindful Meditation",
+      "description": "Improve focus and awareness",
+      "duration": 10,
+      "difficulty": "intermediate",
+      "instructions": [
+        "Sit in a quiet place",
+        "Close your eyes",
+        "Focus on your breath",
+        "Let thoughts pass naturally"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "visualization",
+      "title": "Positive Visualization",
+      "description": "Visualize a peaceful environment",
+      "duration": 8,
+      "difficulty": "beginner",
+      "instructions": [
+        "Close your eyes",
+        "Imagine a calm place",
+        "Focus on details",
+        "Relax and breathe"
+      ]
+    }
+  ],
+
+  "appointments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "practitionerName": "Dr. Sarah Johnson",
+      "preferredDate": "2024-02-10",
+      "preferredTime": "10:00",
+      "reason": "Stress management",
+      "status": "pending"
+    }
+  ],
+
+  "peerSupport": [
+    {
+      "id": 1,
+      "userId": 1,
+      "message": "Feeling anxious today, anyone else?",
+      "timestamp": "2024-02-02T10:30:00"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "message": "Meditation really helped me calm down",
+      "timestamp": "2024-02-03T18:45:00"
+    }
+  ]
+}
